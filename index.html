@@ -1,0 +1,45 @@
+<!--
+Project Title: Interactive Quiz Application
+Name: KUMAR SUBODH
+Roll No: 2401010205
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+
+        <h1>Interactive Quiz</h1>
+        <div class="student-info">
+    <h3>Name: KUMAR SUBODH</h3>
+    <h4>Roll No: 2401010205</h4>
+</div>
+        <p class="intro">
+            Test your knowledge with this short multiple-choice quiz.
+            Select the correct answer and click Next to continue.
+        </p>
+
+        <div id="quiz">
+            <h2 id="question">Question Text</h2>
+
+            <div id="options" class="options"></div>
+
+            <button id="nextBtn">Next</button>
+        </div>
+
+        <div id="result" class="result hidden">
+            <h2 id="scoreText"></h2>
+            <p id="performance"></p>
+            <button id="restartBtn">Restart Quiz</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
